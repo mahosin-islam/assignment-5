@@ -1,21 +1,21 @@
 // header section
 //incrasing  heard button 
-const heard=document.querySelectorAll('.hom');
-let sum=0;
-for(let hear of heard){
-    hear.addEventListener('click',function(){
+const heard = document.querySelectorAll('.hom');
+let sum = 0;
+for (let hear of heard) {
+    hear.addEventListener('click', function () {
         sum++;
-        document.getElementById('mama').innerText=sum;
+        document.getElementById('mama').innerText = sum;
 
     })
 }
 //incrasing  copy button 
-const appe=document.querySelectorAll('.about');
-let cope=0;
-for(let app of appe){
-    app.addEventListener('click',function(){
+const appe = document.querySelectorAll('.about');
+let cope = 0;
+for (let app of appe) {
+    app.addEventListener('click', function () {
         cope++;
-        document.getElementById('copy-point').innerText=cope;
+        document.getElementById('copy-point').innerText = cope;
 
     })
 }
@@ -24,13 +24,12 @@ for(let app of appe){
 ///call button desin
 let array = [];
 
-// first row-area ///
 document.getElementById('call-btn1').addEventListener('click', function () {
     const hearCard = Number(document.getElementById('hard-cart').innerText);
-    if (hearCard > 20) {
+    if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('❤ caling National Emergency Number 999')
+        alert('Calling National Emergency Number 999')
         const add = {
             name: 'National Emetrgency',
             number: 999,
@@ -40,16 +39,17 @@ document.getElementById('call-btn1').addEventListener('click', function () {
 
     }
     else {
-        alert('your coint is less');
+        alert('❌আপনার পযর্প্ত কয়েন নেই কল করতে কমপক্ষে  ২০ কয়েন লাগে');
+
     }
 
 })
 document.getElementById('call-btn2').addEventListener('click', function () {
     const hearCard = Number(document.getElementById('hard-cart').innerText);
-    if (hearCard > 20) {
+    if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('❤ caling National Emergency Number 999')
+        alert('Caling National Emergency Number 999')
 
         const add = {
             name: 'Police Helpline Number',
@@ -60,15 +60,16 @@ document.getElementById('call-btn2').addEventListener('click', function () {
         array.push(add);
     }
     else {
-        alert('your coint is less');
+        alert('❌আপনার পযর্প্ত কয়েন নেই কল করতে কমপক্ষে  ২০ কয়েন লাগে');
+
     }
 })
 document.getElementById('call-btn3').addEventListener('click', function () {
     const hearCard = Number(document.getElementById('hard-cart').innerText);
-    if (hearCard > 20) {
+    if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('❤ caling National Emergency Number 999')
+        alert('Calling National Emergency Number 999')
         const add = {
             name: 'Fire Service Number',
             number: 999,
@@ -77,7 +78,7 @@ document.getElementById('call-btn3').addEventListener('click', function () {
         array.push(add);
     }
     else {
-        alert('your coint is less');
+        alert('❌আপনার পযর্প্ত কয়েন নেই কল করতে কমপক্ষে  ২০ কয়েন লাগে');
     }
 
 })
@@ -85,10 +86,10 @@ document.getElementById('call-btn3').addEventListener('click', function () {
 
 document.getElementById('call-btn4').addEventListener('click', function () {
     const hearCard = Number(document.getElementById('hard-cart').innerText);
-    if (hearCard > 20) {
+    if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('❤ caling Ambulance service Number 1994.999999')
+        alert('Calling Ambulance service Number 1994.999999')
         const add = {
             name: 'Ambulance',
             number: 1994.999999,
@@ -98,16 +99,17 @@ document.getElementById('call-btn4').addEventListener('click', function () {
 
     }
     else {
-        alert('your coint is less');
+        alert('❌আপনার পযর্প্ত কয়েন নেই কল করতে কমপক্ষে  ২০ কয়েন লাগে');
+
     }
 
 })
 document.getElementById('call-btn5').addEventListener('click', function () {
     const hearCard = Number(document.getElementById('hard-cart').innerText);
-    if (hearCard > 20) {
+    if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('❤ caling  Women & Child Helpline Number 109')
+        alert('Calling  Women & Child Helpline Number 109')
 
         const add = {
             name: 'Women  & Child Helpline',
@@ -118,15 +120,16 @@ document.getElementById('call-btn5').addEventListener('click', function () {
         array.push(add);
     }
     else {
-        alert('your coint is less');
+        alert('❌আপনার পযর্প্ত কয়েন নেই কল করতে কমপক্ষে  ২০ কয়েন লাগে');
+
     }
 })
 document.getElementById('call-btn6').addEventListener('click', function () {
     const hearCard = Number(document.getElementById('hard-cart').innerText);
-    if (hearCard > 20) {
+    if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('❤ caling Anti-Corruption Number 999')
+        alert(' Calling Anti-Corruption Number 999')
         const add = {
             name: 'Anti-Corruption',
             number: 106,
@@ -135,7 +138,8 @@ document.getElementById('call-btn6').addEventListener('click', function () {
         array.push(add);
     }
     else {
-        alert('your coint is less');
+        alert('❌আপনার পযর্প্ত কয়েন নেই কল করতে কমপক্ষে  ২০ কয়েন লাগে');
+
     }
 
 })
@@ -144,10 +148,10 @@ document.getElementById('call-btn6').addEventListener('click', function () {
 
 document.getElementById('call-btn7').addEventListener('click', function () {
     const hearCard = Number(document.getElementById('hard-cart').innerText);
-    if (hearCard > 20) {
+    if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('❤ caling Electricity Helpline Number 16216')
+        alert(' Calling Electricity Helpline Number 16216')
         const add = {
             name: 'Electricity Helpline',
             number: 16216,
@@ -157,16 +161,17 @@ document.getElementById('call-btn7').addEventListener('click', function () {
 
     }
     else {
-        alert('your coint is less');
+        alert('❌আপনার পযর্প্ত কয়েন নেই কল করতে কমপক্ষে  ২০ কয়েন লাগে');
+
     }
 
 })
 document.getElementById('call-btn8').addEventListener('click', function () {
     const hearCard = Number(document.getElementById('hard-cart').innerText);
-    if (hearCard > 20) {
+    if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('❤ caling Brack Helpline Number 16445')
+        alert('Calling Brack Helpline Number 16445')
 
         const add = {
             name: 'Brack Helpline ',
@@ -177,15 +182,16 @@ document.getElementById('call-btn8').addEventListener('click', function () {
         array.push(add);
     }
     else {
-        alert('your coint is less');
+        alert('❌আপনার পযর্প্ত কয়েন নেই কল করতে কমপক্ষে  ২০ কয়েন লাগে');
+
     }
 })
 document.getElementById('call-btn9').addEventListener('click', function () {
     const hearCard = Number(document.getElementById('hard-cart').innerText);
-    if (hearCard > 20) {
+    if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('❤ caling Bangladesh Reilway Helpline  Number 163')
+        alert('Calling Bangladesh Reilway Helpline  Number 163')
         const add = {
             name: 'Bangladesh Reilway Helpline',
             number: 163,
@@ -194,14 +200,14 @@ document.getElementById('call-btn9').addEventListener('click', function () {
         array.push(add);
     }
     else {
-        alert('your coint is less');
+        alert('❌আপনার পযর্প্ত কয়েন নেই কল করতে কমপক্ষে  ২০ কয়েন লাগে');
     }
 
 })
 
 
 
-// aside area////////// ||||||||||
+// aside area dwsing//
 const cards = document.querySelectorAll('.common');
 const histor = document.getElementById('history-btn');
 for (let card of cards) {
@@ -226,38 +232,100 @@ for (let card of cards) {
     })
 }
 ///clean history
-
 document.getElementById('clean').addEventListener('click', function () {
     array = [];
     document.getElementById('history-btn').innerHTML = '';
-}) 
-function succed(copebtn, textbtn){
-    document.getElementById(copebtn).addEventListener('click',function(){
-     let write=document.getElementById(textbtn).innerText
-    })
+})
 
-}
+//copy text desing
+document.getElementById('copy-btn1').addEventListener('click',function(){
+     const tex= document.getElementById('text1').innerText;
+      navigator.clipboard.writeText(tex);
+        if (tex) {
+            alert('Copy number is 999');
+        }
+        else {
+            alert('do not copy number')
+        }
+})
+document.getElementById('copy-btn2').addEventListener('click',function(){
+     const tex= document.getElementById('text2').innerText;
+      navigator.clipboard.writeText(tex);
+        if (tex) {
+            alert('Copy number is 999');
+        }
+        else {
+            alert('do not copy number')
+        }
+})
+document.getElementById('copy-btn3').addEventListener('click',function(){
+     const tex= document.getElementById('text3').innerText;
+      navigator.clipboard.writeText(tex);
+        if (tex) {
+            alert('Copy number is 999');
+        }
+        else {
+            alert('do not copy number')
+        }
+})
+document.getElementById('copy-btn4').addEventListener('click',function(){
+     const tex= document.getElementById('text4').innerText;
+      navigator.clipboard.writeText(tex);
+        if (tex) {
+            alert('Copy number is 1994-999999');
+        }
+        else {
+            alert('do not copy number')
+        }
+})
+document.getElementById('copy-btn5').addEventListener('click',function(){
+     const tex= document.getElementById('text5').innerText;
+      navigator.clipboard.writeText(tex);
+        if (tex) {
+            alert('Copy number is 109');
+        }
+        else {
+            alert('do not copy number')
+        }
+})
+document.getElementById('copy-btn6').addEventListener('click',function(){
+     const tex= document.getElementById('text6').innerText;
+      navigator.clipboard.writeText(tex);
+        if (tex) {
+            alert('Copy number is 106');
+        }
+        else {
+            alert('do not copy number')
+        }
+})
+document.getElementById('copy-btn7').addEventListener('click',function(){
+     const tex= document.getElementById('text7').innerText;
+      navigator.clipboard.writeText(tex);
+        if (tex) {
+            alert('Copy number is 16216');
+        }
+        else {
+            alert('do not copy number')
+        }
+})
+document.getElementById('copy-btn8').addEventListener('click',function(){
+     const tex= document.getElementById('text8').innerText;
+      navigator.clipboard.writeText(tex);
+        if (tex) {
+            alert('Copy number is 16445');
+        }
+        else {
+        alert('do not copy number')
+        }
+})
+document.getElementById('copy-btn9').addEventListener('click',function(){
+     const tex= document.getElementById('text9').innerText;
+      navigator.clipboard.writeText(tex);
+        if (tex) {
+            alert('Copy number is 163');
+        }
+        else {
+            alert('do not copy number')
+        }
+})
 
-// copy-desing by using function 
-function addcopy(button, texte){
-    document.getElementById(button).addEventListener('click',function(){
-      let pora=document.getElementById(texte).innerText;
-      navigator.clipboard.writeText(pora);
-      if(pora){
-        alert('you are succed');
-      }
-      else{
-        alert('have a wrond')
-      }
-    }
-)}
-
-addcopy('copy-btn1','text1' )
-addcopy('copy-btn2','text2' )
-addcopy('copy-btn3','text3' )
-addcopy('copy-btn4','text4' )
-addcopy('copy-btn5','text5' )
-addcopy('copy-btn6','text6' )
-addcopy('copy-btn7','text7' )
-addcopy('copy-btn8','text8' )
-addcopy('copy-btn9','text9' )
