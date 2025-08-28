@@ -1,0 +1,12 @@
+@import "tailwindcss";
+ button:hover{
+    background: rgb(71, 65, 65);
+    cursor: pointer;
+}
+.color:hover{
+    background: rgb(71, 65, 65);;
+    cursor: pointer;
+}
+.hom:hover{
+    cursor: pointer;
+}
