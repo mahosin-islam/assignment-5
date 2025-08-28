@@ -49,7 +49,7 @@ document.getElementById('call-btn2').addEventListener('click', function () {
     if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert('Caling National Emergency Number 999')
+        alert('Calling National Emergency Number 999')
 
         const add = {
             name: 'Police Helpline Number',
@@ -129,7 +129,7 @@ document.getElementById('call-btn6').addEventListener('click', function () {
     if (hearCard >= 20) {
         let resul = hearCard - 20;
         (document.getElementById('hard-cart').innerText) = resul;
-        alert(' Calling Anti-Corruption Number 999')
+        alert(' Calling Anti-Corruption Number 106')
         const add = {
             name: 'Anti-Corruption',
             number: 106,
